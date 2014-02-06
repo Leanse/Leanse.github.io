@@ -4,13 +4,36 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>hexo 安装 | Lian&#39;s blog</title>
+    <title>markdown | Lian&#39;s blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Lian">
     
-    <meta name="description" content="关于hexo
-hexo是一个基于Node.js的静态博客程序，可以方便的生成静态网页托管在github和Heroku上。作者是来自台湾的@tommy351。">
+    <meta name="description" content="h1
+h2
+
+老子说。。。。
+行内代码
+1
+2
+3
+for(var i=0; i &lt; 10; i++) {
+	console.log(&#39;sth&#39;)
+}
+
+
+
+无序列表
+
+sth
+sth2
+sth4
+
+有序列表
+
+first
+second
+third">
     
     
     
@@ -66,15 +89,15 @@ hexo是一个基于Node.js的静态博客程序，可以方便的生成静态网
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2014/02/06/hexo/" title="hexo 安装" itemprop="url">hexo 安装</a>
+      <a href="/2014/02/06/markdown/" title="markdown" itemprop="url">markdown</a>
   </h1>
   <p class="article-author">By
     
       <a href="http://yoursite.com" title="Lian">Lian</a>
     </p>
   <p class="article-time">
-    <time datetime="2014-02-06T08:38:32.000Z" itemprop="datePublished">Feb 6 2014</time>
-    Updated:<time datetime="2014-02-06T08:45:47.000Z" itemprop="dateModified">Feb 6 2014</time>
+    <time datetime="2014-02-06T08:50:23.000Z" itemprop="datePublished">Feb 6 2014</time>
+    Updated:<time datetime="2014-02-06T08:53:11.000Z" itemprop="dateModified">Feb 6 2014</time>
     
   </p>
 </header>
@@ -83,69 +106,46 @@ hexo是一个基于Node.js的静态博客程序，可以方便的生成静态网
 		
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">Contents</strong>
-		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#-hexo"><span class="toc-number">1.</span> <span class="toc-text">关于hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">2.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">3.</span> <span class="toc-text">初始化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">4.</span> <span class="toc-text">创建文章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">5.</span> <span class="toc-text">预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">6.</span> <span class="toc-text">命令缩写</span></a></li></ol><li class="toc-item toc-level-1"><a class="toc-link" href="#tips"><span class="toc-number"></span> <span class="toc-text">tips</span></a></li><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">1.</span> <span class="toc-text">参考及更多</span></a></li></ol>
+		<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#h1"><span class="toc-number">1.</span> <span class="toc-text">h1</span></a></li><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#h2"><span class="toc-number">1.1.</span> <span class="toc-text">h2</span></a></li></ol>
 		</div>
 		
-		<h2 id="-hexo">关于hexo</h2>
-<p><a href="http://zespia.tw/hexo/" target="_blank">hexo</a>是一个基于Node.js的静态博客程序，可以方便的生成静态网页托管在github和Heroku上。作者是来自台湾的@tommy351。<a id="more"></a>引用@tommy351的话，hexo：</p>
+		<h1 id="h1">h1</h1>
+<h2 id="h2">h2</h2>
 <blockquote>
-<p>快速、简单且功能强大的 Node.js 博客框架。
-A fast, simple &amp; powerful blog framework, powered by Node.js.</p>
-</blockquote>
-<p>类似于jekyll、Octopress、Wordpress，我们可以用hexo创建自己的博客，托管到github或Heroku上，绑定自己的域名，用markdown写文章。</p>
-<h2 id="-">安装</h2>
-<figure class="highlight"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>npm <span class="keyword">install</span> -g hexo
-</pre></td></tr></table></figure>
-
-<h2 id="-">初始化</h2>
-<figure class="highlight"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>hexo init
-</pre></td></tr></table></figure>
-
-<h2 id="-">创建文章</h2>
-<figure class="highlight"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>hexo <span class="keyword">new</span> <span class="string">'文章名'</span>
-</pre></td></tr></table></figure>
-
-<p>然后可以去source/_posts/文章名.md 去编辑文章内容</p>
-<h2 id="-">预览</h2>
+<p>老子说。。。。
+<code>行内代码</code></p>
 <figure class="highlight"><table><tr><td class="gutter"><pre>1
 2
-</pre></td><td class="code"><pre>hexo generate
-hexo <span class="keyword">server</span>
+3
+</pre></td><td class="code"><pre><span class="keyword">for</span>(var <span class="built_in">i</span>=<span class="number">0</span>; <span class="built_in">i</span> &lt; <span class="number">10</span>; <span class="built_in">i</span>++) <span class="cell">{
+	console.log(<span class="string">'sth'</span>)
+}</span>
 </pre></td></tr></table></figure>
 
-<p>然后访问<code>http://127.0.0.1:4000/</code></p>
-<h2 id="-">命令缩写</h2>
-<p>hexo g == hexo generate<br>hexo d == hexo deploy<br>hexo s == hexo server<br>hexo n == hexo new </p>
-<h1 id="tips">tips</h1>
+</blockquote>
+<p>无序列表</p>
 <ul>
-<li>有的时候当你修改页面或更改配置后发现并没有立即生效，可以执行<code>hexo clean</code>然后再启动<code>hexo server</code></li>
-<li>在文档中插入<code>&lt;!--more--&gt;</code>就可以将文章分隔，more以上的部分会已摘要的形式显示，当查看全文时more以下的部分才会显示出来。也可以在Markdown文件中定义<code>description</code>。   </li>
+<li>sth</li>
+<li>sth2</li>
+<li>sth4</li>
 </ul>
-<h2 id="-">参考及更多</h2>
-<ul>
-<li><a href="http://yangjian.me/workspace/building-blog-with-hexo/" target="_blank">http://yangjian.me/workspace/building-blog-with-hexo/</a></li>
-<li><a href="http://zespia.tw/hexo/" target="_blank">http://zespia.tw/hexo/</a></li>
-<li><a href="http://zipperary.com/2013/05/28/hexo-guide-1/#more" target="_blank">http://zipperary.com/2013/05/28/hexo-guide-1/#more</a></li>
-<li><a href="http://zipperary.com/2013/05/28/hexo-guide-2/" target="_blank">http://zipperary.com/2013/05/28/hexo-guide-2/</a> </li>
-</ul>
+<p>有序列表</p>
+<ol>
+<li>first</li>
+<li>second</li>
+<li>third</li>
+</ol>
+<hr>
   
 	</div>
 		<footer class="article-footer clearfix">
-
-  <div class="article-tags">
-  
-  <span></span> <a href="/tags/hexo/">hexo</a>
-  </div>
 
 
 
 
 <div class="article-share" id="share">
 
-  <div data-url="http://yoursite.com/2014/02/06/hexo/" data-title="hexo 安装 | Lian&#39;s blog" data-tsina="null" class="share clearfix">
+  <div data-url="http://yoursite.com/2014/02/06/markdown/" data-title="markdown | Lian&#39;s blog" data-tsina="null" class="share clearfix">
   </div>
 
 </div>
@@ -154,14 +154,14 @@ hexo <span class="keyword">server</span>
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2014/02/06/markdown/" title="markdown">
-  <strong>PREVIOUS:</strong><br/>
-  <span>
-  markdown</span>
+
+<div class="next">
+<a href="/2014/02/06/hexo/"  title="hexo 安装">
+ <strong>NEXT:</strong><br/> 
+ <span>hexo 安装
+</span>
 </a>
 </div>
-
 
 </nav>
 
@@ -171,7 +171,7 @@ hexo <span class="keyword">server</span>
 
   <div id="toc" class="toc-aside">
   <strong class="toc-title">Contents</strong>
-  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#-hexo"><span class="toc-number">1.</span> <span class="toc-text">关于hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">2.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">3.</span> <span class="toc-text">初始化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">4.</span> <span class="toc-text">创建文章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">5.</span> <span class="toc-text">预览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">6.</span> <span class="toc-text">命令缩写</span></a></li></ol><li class="toc-item toc-level-1"><a class="toc-link" href="#tips"><span class="toc-number"></span> <span class="toc-text">tips</span></a></li><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#-"><span class="toc-number">1.</span> <span class="toc-text">参考及更多</span></a></li></ol>
+  <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#h1"><span class="toc-number">1.</span> <span class="toc-text">h1</span></a></li><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#h2"><span class="toc-number">1.1.</span> <span class="toc-text">h2</span></a></li></ol>
   </div>
 
 <div id="asidepart">
